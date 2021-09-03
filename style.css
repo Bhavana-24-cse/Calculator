@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container {
+    background-image:url(https://i.pinimg.com/736x/97/ce/a7/97cea7e15201dc807d266908c4d911b1.jpg);
+    width:1000px;
+    height:550px;
+    margin:30px auto;
+    
+
+}
+#calculator{
+    width:320px;
+    height:520px;
+    background-color:lightgoldenrodyellow;
+    margin:0 auto;
+    top:20px;
+    position:relative;
+    border-radius:30px;
+}
+
+#result{
+    height:100px;
+}
+
+#output{
+    height:50px;
+    text-align:right;
+    margin:10px 20px;
+    font-size:35px;
+
+}
+
+#empty {
+    background-color:lightgoldenrodyellow;
+}
+
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 10px;
+	padding-top: 10px;
+	font-size: 15px;
+	color: #919191;
+}
+
+#keyboard {
+    height:300px;
+}
+
+.operator,.number, .empty{
+    width:50px;
+    height:50px;
+    margin:15px;
+    float:left;
+    border-radius:50%;
+    font-weight:bold;
+    border-width:0;
+    font-size:15px;
+}
+
+.number {
+    background-color:white;
+}
+
+.number, .operator {
+    cursor:pointer;
+}
+
+.operator:active , .number:active {
+        font-size:12px;
+
+}
+
+button:nth-child(4) {
+    font-size:19px;
+    background-color:mediumvioletred;
+}
+
+button:nth-child(8) {
+    font-size:19px;
+    background-color:blueviolet;
+}
+
+button:nth-child(12) {
+    font-size:19px;
+    background-color:fuchsia;
+}
+
+button:nth-child(16) {
+    font-size:19px;
+    background-color:rosybrown;
+}
+
+button:nth-child(20) {
+    font-size:19px;
+    background-color:royalblue;
+}
